@@ -1,0 +1,7 @@
+C:\Users\matsh\Documents\Unreal Projects\FortCubulara_COMP102\Plugins\UE4Duino\Intermediate\Build\Win64\UE4Editor\Development\UE4Duino\Definitions.UE4Duino.h
+C:/Users/matsh/Documents/Unreal Projects/FortCubulara_COMP102/Plugins/UE4Duino/Intermediate/Build/Win64/UE4Editor/Inc/UE4Duino/Serial.gen.cpp
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\matsh\Documents\Unreal Projects\FortCubulara_COMP102\Plugins\UE4Duino\Source\UE4Duino/Public/Serial.h
+C:\Users\matsh\Documents\Unreal Projects\FortCubulara_COMP102\Plugins\UE4Duino\Intermediate\Build\Win64\UE4Editor\Inc\UE4Duino\Serial.generated.h
+C:/Users/matsh/Documents/Unreal Projects/FortCubulara_COMP102/Plugins/UE4Duino/Intermediate/Build/Win64/UE4Editor/Inc/UE4Duino/UE4Duino.init.gen.cpp
