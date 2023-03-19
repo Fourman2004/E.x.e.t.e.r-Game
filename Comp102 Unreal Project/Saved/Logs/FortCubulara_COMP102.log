@@ -2142,3 +2142,60 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.19-14.46.14:559][476]LogContentValidation: Display: Validating Blueprint /Game/Scripts/ThirdPersonBP/Blueprints/Player/ThirdPersonCharacter.ThirdPersonCharacter
 [2023.03.19-14.46.14:559][476]LogContentValidation: Display: Validating World /Game/Scripts/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
 [2023.03.19-14.46.14:559][476]LogContentValidation: Display: Validating Blueprint /Game/Scripts/ThirdPersonBP/Blueprints/Interactables/Door.Door
+[2023.03.19-14.47.27:899][958]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2023.03.19-14.47.28:285][958]LogUObjectHash: Compacting FUObjectHashTables data took   5.07ms
+[2023.03.19-14.48.24:305][721]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2023.03.19-14.48.24:718][721]LogUObjectHash: Compacting FUObjectHashTables data took   7.97ms
+[2023.03.19-14.50.03:403][562]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2023.03.19-14.50.03:759][562]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
+[2023.03.19-14.50.58:814][997]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2023.03.19-14.50.59:204][997]LogUObjectHash: Compacting FUObjectHashTables data took   6.47ms
+[2023.03.19-14.52.09:038][426]BlueprintLog: New page: Compile Door
+[2023.03.19-14.52.09:305][426]LogUObjectHash: Compacting FUObjectHashTables data took   9.10ms
+[2023.03.19-14.52.15:081][480]BlueprintLog: New page: Compile Door
+[2023.03.19-14.52.15:302][480]LogUObjectHash: Compacting FUObjectHashTables data took   7.94ms
+[2023.03.19-14.55.14:042][962]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2023.03.19-14.55.14:061][962]LogBlueprint: Error: [AssetLog] C:\Users\matsh\Documents\Unirepo's\COMP102-Project\Comp102 Unreal Project\Content\Scripts\ThirdPersonBP\Blueprints\Player\ThirdPersonCharacter.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To Door  to imply a specific type.
+[2023.03.19-14.55.14:062][962]LogBlueprint: Error: [AssetLog] C:\Users\matsh\Documents\Unirepo's\COMP102-Project\Comp102 Unreal Project\Content\Scripts\ThirdPersonBP\Blueprints\Player\ThirdPersonCharacter.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2023.03.19-14.55.14:293][962]LogUObjectHash: Compacting FUObjectHashTables data took   5.95ms
+[2023.03.19-14.55.22:001][126]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2023.03.19-14.55.22:448][126]LogUObjectHash: Compacting FUObjectHashTables data took  11.16ms
+[2023.03.19-14.55.41:085][402]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.03.19-14.55.41:096][402]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.03.19-14.55.41:116][402]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.03.19-14.55.43:914][434]LogContentBrowser: Attempting asset rename: NewBlueprint -> Key
+[2023.03.19-14.55.44:325][434]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.03.19-14.56.14:034][541]LogUObjectHash: Compacting FUObjectHashTables data took   5.14ms
+[2023.03.19-14.56.14:063][541]LogSavePackage: Moving '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/ThirdPersonExampleMap_Auto4436EA8C04D01AC8995B4EE8EE001C6B7.tmp' to '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/Autosaves/Game/Scripts/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2023.03.19-14.56.14:067][541]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Scripts/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.090
+[2023.03.19-14.56.14:067][541]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.090
+[2023.03.19-14.56.14:068][541]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Scripts/ThirdPersonBP/Blueprints/Player/ThirdPersonCharacter] ([2] browsable assets)...
+[2023.03.19-14.56.14:122][541]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Scripts/ThirdPersonBP/Blueprints/Player/ThirdPersonCharacter.ThirdPersonCharacter]
+[2023.03.19-14.56.14:123][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/Scripts/ThirdPersonBP/Blueprints/Player/ThirdPersonCharacter]
+[2023.03.19-14.56.14:174][541]LogSavePackage: Moving '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/ThirdPersonCharacter_Auto428563C9A40541F97A75342A7043773A1.tmp' to '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/Autosaves/Game/Scripts/ThirdPersonBP/Blueprints/Player/ThirdPersonCharacter_Auto4.uasset'
+[2023.03.19-14.56.14:177][541]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Scripts/ThirdPersonBP/Blueprints/Interactables/Door] ([2] browsable assets)...
+[2023.03.19-14.56.14:227][541]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Scripts/ThirdPersonBP/Blueprints/Interactables/Door.Door]
+[2023.03.19-14.56.14:227][541]OBJ SavePackage: Finished generating thumbnails for package [/Game/Scripts/ThirdPersonBP/Blueprints/Interactables/Door]
+[2023.03.19-14.56.14:244][541]LogSavePackage: Moving '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/Door_Auto46603D4EA418FBFC4ABE8F1BD322E2EAE.tmp' to '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/Autosaves/Game/Scripts/ThirdPersonBP/Blueprints/Interactables/Door_Auto4.uasset'
+[2023.03.19-14.56.14:247][541]LogFileHelpers: Auto-saving content packages took 0.180
+[2023.03.19-14.56.21:023][601]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Scripts/ThirdPersonBP/Blueprints/Interactables/Key.Key
+[2023.03.19-14.56.46:275][970]BlueprintLog: New page: Compile Key
+[2023.03.19-14.56.46:369][970]LogUObjectHash: Compacting FUObjectHashTables data took   5.21ms
+[2023.03.19-14.57.34:038][497]BlueprintLog: New page: Compile Key
+[2023.03.19-14.57.34:369][497]LogUObjectHash: Compacting FUObjectHashTables data took  13.58ms
+[2023.03.19-15.00.36:497][570]BlueprintLog: New page: Compile Key
+[2023.03.19-15.00.36:728][570]LogUObjectHash: Compacting FUObjectHashTables data took   8.60ms
+[2023.03.19-15.01.10:162][562]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2023.03.19-15.01.10:527][562]LogUObjectHash: Compacting FUObjectHashTables data took   6.26ms
+[2023.03.19-15.01.27:668][835]LogUObjectHash: Compacting FUObjectHashTables data took  14.33ms
+[2023.03.19-15.01.28:322][835]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.03.19-15.01.28:376][835]LogSavePackage: Moving '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/ThirdPersonExampleMapFC754FB34B415287A9E503B3FA2482C3.tmp' to '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Content/Scripts/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2023.03.19-15.01.28:406][835]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.172
+[2023.03.19-15.01.28:555][835]LogSavePackage: Moving '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/ThirdPersonCharacterBA02C54A4D774DAC075301BD4D9A0D5E.tmp' to '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Content/Scripts/ThirdPersonBP/Blueprints/Player/ThirdPersonCharacter.uasset'
+[2023.03.19-15.01.28:583][835]LogSavePackage: Moving '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/Door7E009A9444F46A5FBCCCD5B57584A459.tmp' to '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Content/Scripts/ThirdPersonBP/Blueprints/Interactables/Door.uasset'
+[2023.03.19-15.01.28:667][835]LogSavePackage: Moving '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/Key5F82584B45944DA8E7FB11BE0E55D283.tmp' to '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Content/Scripts/ThirdPersonBP/Blueprints/Interactables/Key.uasset'
+[2023.03.19-15.01.29:132][835]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.19-15.01.29:132][835]LogContentValidation: Display: Validating Blueprint /Game/Scripts/ThirdPersonBP/Blueprints/Player/ThirdPersonCharacter.ThirdPersonCharacter
+[2023.03.19-15.01.29:132][835]LogContentValidation: Display: Validating World /Game/Scripts/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.03.19-15.01.29:132][835]LogContentValidation: Display: Validating Blueprint /Game/Scripts/ThirdPersonBP/Blueprints/Interactables/Key.Key
+[2023.03.19-15.01.29:132][835]LogContentValidation: Display: Validating Blueprint /Game/Scripts/ThirdPersonBP/Blueprints/Interactables/Door.Door
