@@ -2063,3 +2063,82 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.19-14.40.57:175][486]LogUObjectHash: Compacting FUObjectHashTables data took   5.06ms
 [2023.03.19-14.40.57:276][487]LogPlayLevel: Display: Destroying online subsystem :Context_22
 [2023.03.19-14.41.14:400][803]LogSlate: Window 'Source Control Login' being destroyed
+[2023.03.19-14.43.48:093][225]LogUObjectHash: Compacting FUObjectHashTables data took   5.88ms
+[2023.03.19-14.43.48:136][225]LogSavePackage: Moving '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/ThirdPersonExampleMap_Auto332FB48DB44E5CEAD78016997B403DB48.tmp' to '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/Autosaves/Game/Scripts/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2023.03.19-14.43.48:140][225]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Scripts/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.122
+[2023.03.19-14.43.48:140][225]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.122
+[2023.03.19-14.43.48:141][225]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Scripts/ThirdPersonBP/Blueprints/Player/ThirdPersonCharacter] ([2] browsable assets)...
+[2023.03.19-14.43.48:211][225]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Scripts/ThirdPersonBP/Blueprints/Player/ThirdPersonCharacter.ThirdPersonCharacter]
+[2023.03.19-14.43.48:211][225]OBJ SavePackage: Finished generating thumbnails for package [/Game/Scripts/ThirdPersonBP/Blueprints/Player/ThirdPersonCharacter]
+[2023.03.19-14.43.48:268][225]LogSavePackage: Moving '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/ThirdPersonCharacter_Auto3F32EF1D84DD4051D373AE18B0044B221.tmp' to '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/Autosaves/Game/Scripts/ThirdPersonBP/Blueprints/Player/ThirdPersonCharacter_Auto3.uasset'
+[2023.03.19-14.43.48:272][225]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Scripts/ThirdPersonBP/Blueprints/Interactables/Door] ([2] browsable assets)...
+[2023.03.19-14.43.48:329][225]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Scripts/ThirdPersonBP/Blueprints/Interactables/Door.Door]
+[2023.03.19-14.43.48:329][225]OBJ SavePackage: Finished generating thumbnails for package [/Game/Scripts/ThirdPersonBP/Blueprints/Interactables/Door]
+[2023.03.19-14.43.48:348][225]LogSavePackage: Moving '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/Door_Auto39F7DADA54610C04CFC3B248ECB915025.tmp' to '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/Autosaves/Game/Scripts/ThirdPersonBP/Blueprints/Interactables/Door_Auto3.uasset'
+[2023.03.19-14.43.48:350][225]LogFileHelpers: Auto-saving content packages took 0.210
+[2023.03.19-14.44.41:863][708]BlueprintLog: New page: Compile Door
+[2023.03.19-14.44.42:124][708]LogUObjectHash: Compacting FUObjectHashTables data took   6.34ms
+[2023.03.19-14.44.46:490][810]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2023.03.19-14.44.46:506][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.19-14.44.46:506][810]PIE: New page: PIE session: ThirdPersonExampleMap (19 Mar 2023, 14:44:46)
+[2023.03.19-14.44.46:507][810]LogPlayLevel: Creating play world package: /Game/Scripts/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.19-14.44.46:521][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014010s)
+[2023.03.19-14.44.46:523][810]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.03.19-14.44.46:523][810]LogPlayLevel: PIE: World Init took: (0.002439s)
+[2023.03.19-14.44.46:523][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scripts/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Scripts/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016701s)
+[2023.03.19-14.44.46:580][810]LogUObjectHash: Compacting FUObjectHashTables data took   6.07ms
+[2023.03.19-14.44.46:581][810]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.03.19-14.44.46:582][810]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.19-14.44.46:582][810]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.19-14.44.46:582][810]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.19-14.44.46:582][810]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.19-14.44.46:582][810]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.19-14.44.46:582][810]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.19-14.44.46:582][810]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.19-14.44.46:582][810]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.19-14.44.46:582][810]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.19-14.44.46:583][810]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.19-14.44.46:583][810]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.19-14.44.46:583][810]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.19-14.44.46:591][810]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.19-14.44.46:591][810]LogAudioMixer: Display: 1: FrontRight
+[2023.03.19-14.44.46:618][810]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
+[2023.03.19-14.44.46:619][810]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.19-14.44.46:619][810]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.19-14.44.46:619][810]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.19-14.44.46:619][810]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.19-14.44.46:619][810]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.19-14.44.46:620][810]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.19-14.44.46:621][810]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.19-14.44.46:621][810]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.19-14.44.46:621][810]LogInit: FAudioDevice initialized.
+[2023.03.19-14.44.46:621][810]LogAudio: Display: Audio Device (ID: 16) registered with world 'ThirdPersonExampleMap'.
+[2023.03.19-14.44.46:654][810]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-14.44.46:654][810]LogLoad: Game class is 'GameModeBase'
+[2023.03.19-14.44.46:658][810]LogWorld: Bringing World /Game/Scripts/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.03.19-14.44.46
+[2023.03.19-14.44.46:658][810]LogWorld: Bringing up level for play took: 0.003283
+[2023.03.19-14.44.46:658][810]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2023.03.19-14.44.46:666][810]PIE: Server logged in
+[2023.03.19-14.44.46:670][810]PIE: Play in editor total start time 0.169 seconds.
+[2023.03.19-14.46.00:539][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-14.46.00:540][258]LogWorld: BeginTearingDown for /Game/Scripts/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.19-14.46.00:541][258]LogSlate: Window 'FortCubulara_COMP102 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2023.03.19-14.46.00:991][258]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-14.46.00:993][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-14.46.01:094][258]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.19-14.46.01:221][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-14.46.01:539][258]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.19-14.46.01:539][258]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-14.46.01:541][258]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-14.46.01:553][258]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2023.03.19-14.46.01:618][259]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.03.19-14.46.13:662][476]LogUObjectHash: Compacting FUObjectHashTables data took  12.01ms
+[2023.03.19-14.46.14:306][476]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.03.19-14.46.14:336][476]LogSavePackage: Moving '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/ThirdPersonExampleMapE57837484B01BC79C3A781884AB15AF5.tmp' to '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Content/Scripts/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2023.03.19-14.46.14:350][476]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.097
+[2023.03.19-14.46.14:446][476]LogSavePackage: Moving '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/ThirdPersonCharacter125DF2864C100618CC155DAEF7BEA0EF.tmp' to '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Content/Scripts/ThirdPersonBP/Blueprints/Player/ThirdPersonCharacter.uasset'
+[2023.03.19-14.46.14:527][476]LogSavePackage: Moving '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/Door6615636849D5FD600EF62CA53DF3B173.tmp' to '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Content/Scripts/ThirdPersonBP/Blueprints/Interactables/Door.uasset'
+[2023.03.19-14.46.14:559][476]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.19-14.46.14:559][476]LogContentValidation: Display: Validating Blueprint /Game/Scripts/ThirdPersonBP/Blueprints/Player/ThirdPersonCharacter.ThirdPersonCharacter
+[2023.03.19-14.46.14:559][476]LogContentValidation: Display: Validating World /Game/Scripts/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.03.19-14.46.14:559][476]LogContentValidation: Display: Validating Blueprint /Game/Scripts/ThirdPersonBP/Blueprints/Interactables/Door.Door
