@@ -2374,3 +2374,159 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.19-15.07.46:417][182]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2023.03.19-15.07.46:463][182]LogUObjectHash: Compacting FUObjectHashTables data took   8.81ms
 [2023.03.19-15.07.46:510][183]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.03.19-15.16.25:931][736]LogUObjectHash: Compacting FUObjectHashTables data took  10.09ms
+[2023.03.19-15.16.26:312][736]LogSavePackage: Moving '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/ThirdPersonExampleMap_Auto536CAECCF4375F0406A37308B3CB7C128.tmp' to '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/Autosaves/Game/Scripts/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2023.03.19-15.16.26:321][736]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Scripts/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.561
+[2023.03.19-15.16.26:321][736]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.561
+[2023.03.19-15.16.58:022][752]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.03.19-15.16.58:046][752]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.03.19-15.17.02:036][807]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> UI
+[2023.03.19-15.17.02:427][807]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.03.19-15.17.07:348][897]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Scripts/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2023.03.19-15.17.13:316][ 26]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.03.19-15.17.13:369][ 26]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.19-15.17.38:297][649]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.03.19-15.17.38:311][649]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.03.19-15.17.38:341][649]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.03.19-15.17.43:966][834]LogContentBrowser: Attempting asset rename: NewBlueprint -> PlayerUIHUD
+[2023.03.19-15.17.44:230][834]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.03.19-15.17.46:286][890]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.03.19-15.17.46:332][890]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.19-15.18.03:670][646]LogUObjectHash: Compacting FUObjectHashTables data took   5.45ms
+[2023.03.19-15.18.03:713][646]LogSavePackage: Moving '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/ThirdPersonExampleMapFB3BC0B54EC6ADAEC5BC74B2F511FD3D.tmp' to '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Content/Scripts/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2023.03.19-15.18.04:337][646]LogSavePackage: Moving '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/ThirdPersonExampleMap_BuiltDataE0903F1041CC37C4879CC18CA6E98FD6.tmp' to '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Content/Scripts/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2023.03.19-15.18.04:362][646]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.19-15.18.04:363][646]LogContentValidation: Display: Validating World /Game/Scripts/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.03.19-15.18.04:363][646]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Scripts/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2023.03.19-15.25.15:253][ 23]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2023.03.19-15.25.15:365][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   5.59ms
+[2023.03.19-15.25.21:212][156]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Scripts/ThirdPersonBP/Blueprints/PlayerUIHUD.PlayerUIHUD
+[2023.03.19-15.25.59:278][766]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.03.19-15.25.59:308][766]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.03.19-15.26.01:814][862]BlueprintLog: New page: Compile PlayerUIHUD
+[2023.03.19-15.26.02:014][862]LogUObjectHash: Compacting FUObjectHashTables data took   7.16ms
+[2023.03.19-15.26.11:076][ 54]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Scripts/ThirdPersonBP/Blueprints/Interactables/UI.UI
+[2023.03.19-15.29.02:898][140]BlueprintLog: New page: Compile UI
+[2023.03.19-15.29.03:216][140]LogUObjectHash: Compacting FUObjectHashTables data took  13.07ms
+[2023.03.19-15.29.34:438][327]LogUObjectHash: Compacting FUObjectHashTables data took  92.89ms
+[2023.03.19-15.29.34:442][327]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Scripts/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.410
+[2023.03.19-15.29.34:449][327]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Scripts/ThirdPersonBP/Blueprints/ThirdPersonGameMode] ([2] browsable assets)...
+[2023.03.19-15.29.34:449][327]OBJ SavePackage: Finished generating thumbnails for package [/Game/Scripts/ThirdPersonBP/Blueprints/ThirdPersonGameMode]
+[2023.03.19-15.29.34:469][327]LogSavePackage: Moving '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/ThirdPersonGameMode_Auto62429BD144BAAEE1C5A9B95B6F25CB7D2.tmp' to '../../../../../../Users/matsh/Documents/Unirepo's/COMP102-Project/Comp102 Unreal Project/Saved/Autosaves/Game/Scripts/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto6.uasset'
+[2023.03.19-15.29.34:478][327]LogFileHelpers: Auto-saving content packages took 0.033
+[2023.03.19-15.33.15:078][888]BlueprintLog: New page: Compile UI
+[2023.03.19-15.33.15:170][888]LogUObjectHash: Compacting FUObjectHashTables data took   7.81ms
+[2023.03.19-15.36.54:406][383]BlueprintLog: New page: Compile UI
+[2023.03.19-15.36.54:549][383]LogUObjectHash: Compacting FUObjectHashTables data took  11.53ms
+[2023.03.19-15.37.27:157][ 74]BlueprintLog: New page: Compile UI
+[2023.03.19-15.37.27:318][ 74]LogUObjectHash: Compacting FUObjectHashTables data took  12.36ms
+[2023.03.19-15.37.37:539][304]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2023.03.19-15.37.37:560][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.19-15.37.37:560][304]PIE: New page: PIE session: ThirdPersonExampleMap (19 Mar 2023, 15:37:37)
+[2023.03.19-15.37.37:560][304]LogPlayLevel: Creating play world package: /Game/Scripts/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.19-15.37.37:577][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016373s)
+[2023.03.19-15.37.37:578][304]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.03.19-15.37.37:579][304]LogPlayLevel: PIE: World Init took: (0.001749s)
+[2023.03.19-15.37.37:579][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scripts/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Scripts/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018339s)
+[2023.03.19-15.37.37:668][304]LogUObjectHash: Compacting FUObjectHashTables data took   8.77ms
+[2023.03.19-15.37.37:670][304]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.03.19-15.37.37:670][304]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.19-15.37.37:670][304]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.19-15.37.37:670][304]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.19-15.37.37:670][304]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.19-15.37.37:670][304]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.19-15.37.37:670][304]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.19-15.37.37:670][304]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.19-15.37.37:670][304]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.19-15.37.37:671][304]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.19-15.37.37:671][304]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.19-15.37.37:671][304]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.19-15.37.37:671][304]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.19-15.37.37:681][304]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.19-15.37.37:681][304]LogAudioMixer: Display: 1: FrontRight
+[2023.03.19-15.37.37:712][304]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
+[2023.03.19-15.37.37:712][304]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.19-15.37.37:712][304]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.19-15.37.37:713][304]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.19-15.37.37:713][304]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.19-15.37.37:713][304]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.19-15.37.37:713][304]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.19-15.37.37:715][304]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.19-15.37.37:715][304]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.19-15.37.37:715][304]LogInit: FAudioDevice initialized.
+[2023.03.19-15.37.37:715][304]LogAudio: Display: Audio Device (ID: 20) registered with world 'ThirdPersonExampleMap'.
+[2023.03.19-15.37.37:775][304]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-15.37.37:775][304]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2023.03.19-15.37.37:779][304]LogWorld: Bringing World /Game/Scripts/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.03.19-15.37.37
+[2023.03.19-15.37.37:779][304]LogWorld: Bringing up level for play took: 0.003595
+[2023.03.19-15.37.37:780][304]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2023.03.19-15.37.37:795][304]PIE: Server logged in
+[2023.03.19-15.37.37:799][304]PIE: Play in editor total start time 0.246 seconds.
+[2023.03.19-15.37.41:353][344]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-15.37.41:353][344]LogWorld: BeginTearingDown for /Game/Scripts/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.19-15.37.41:357][344]LogSlate: Window 'FortCubulara_COMP102 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2023.03.19-15.37.41:499][344]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-15.37.41:501][344]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-15.37.41:640][344]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.19-15.37.41:686][344]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-15.37.41:779][344]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.19-15.37.41:780][344]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-15.37.41:781][344]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-15.37.41:794][344]LogUObjectHash: Compacting FUObjectHashTables data took   6.68ms
+[2023.03.19-15.37.41:836][345]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2023.03.19-15.38.10:473][789]BlueprintLog: New page: Compile UI
+[2023.03.19-15.38.10:759][789]LogUObjectHash: Compacting FUObjectHashTables data took  15.30ms
+[2023.03.19-15.38.14:446][875]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2023.03.19-15.38.14:481][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.19-15.38.14:481][875]PIE: New page: PIE session: ThirdPersonExampleMap (19 Mar 2023, 15:38:14)
+[2023.03.19-15.38.14:481][875]LogPlayLevel: Creating play world package: /Game/Scripts/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.19-15.38.14:503][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021684s)
+[2023.03.19-15.38.14:504][875]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.03.19-15.38.14:505][875]LogPlayLevel: PIE: World Init took: (0.001680s)
+[2023.03.19-15.38.14:505][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scripts/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Scripts/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023644s)
+[2023.03.19-15.38.14:619][875]LogUObjectHash: Compacting FUObjectHashTables data took  12.44ms
+[2023.03.19-15.38.14:621][875]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.03.19-15.38.14:621][875]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.19-15.38.14:621][875]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.19-15.38.14:621][875]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.19-15.38.14:621][875]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.19-15.38.14:621][875]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.19-15.38.14:621][875]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.19-15.38.14:621][875]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.19-15.38.14:621][875]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.19-15.38.14:622][875]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.19-15.38.14:622][875]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.19-15.38.14:622][875]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.19-15.38.14:622][875]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.19-15.38.14:631][875]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.19-15.38.14:631][875]LogAudioMixer: Display: 1: FrontRight
+[2023.03.19-15.38.14:668][875]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
+[2023.03.19-15.38.14:669][875]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.19-15.38.14:669][875]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.19-15.38.14:669][875]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.19-15.38.14:670][875]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.19-15.38.14:670][875]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.03.19-15.38.14:670][875]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.03.19-15.38.14:672][875]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.03.19-15.38.14:672][875]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.03.19-15.38.14:672][875]LogInit: FAudioDevice initialized.
+[2023.03.19-15.38.14:672][875]LogAudio: Display: Audio Device (ID: 21) registered with world 'ThirdPersonExampleMap'.
+[2023.03.19-15.38.14:734][875]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-15.38.14:734][875]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2023.03.19-15.38.14:738][875]LogWorld: Bringing World /Game/Scripts/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2023.03.19-15.38.14
+[2023.03.19-15.38.14:739][875]LogWorld: Bringing up level for play took: 0.003513
+[2023.03.19-15.38.14:739][875]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2023.03.19-15.38.14:749][875]PIE: Server logged in
+[2023.03.19-15.38.14:753][875]PIE: Play in editor total start time 0.283 seconds.
+[2023.03.19-15.38.22:937][975]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.19-15.38.22:938][975]LogWorld: BeginTearingDown for /Game/Scripts/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.03.19-15.38.22:940][975]LogSlate: Window 'FortCubulara_COMP102 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2023.03.19-15.38.23:042][975]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.19-15.38.23:044][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-15.38.23:206][975]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.19-15.38.23:250][975]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.19-15.38.23:401][975]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.19-15.38.23:402][975]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-15.38.23:403][975]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.03.19-15.38.23:419][975]LogUObjectHash: Compacting FUObjectHashTables data took   6.97ms
+[2023.03.19-15.38.23:462][976]LogPlayLevel: Display: Destroying online subsystem :Context_34
