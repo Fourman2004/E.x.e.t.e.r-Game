@@ -29,3 +29,5 @@ The Controller will be glove with wires going from the fingers to a Box that wil
 The housing unit will be 3D printed and attached to the wrist with a band, either of plastic or rubber. The design of the Box will have a small platform to seperate the PCB/Protoype board from the Arduino, Along with section for the wires to come out of,along with one for the USB port on the arduino.
 ---------------
 ## Key User Stories
+
+The Key features I will need is the functionality of the X/Y axis to look around with, along with soldering the parts, 3D printing the CAD design of the housing unit and programming the mechanics mentioned above. 
