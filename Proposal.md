@@ -16,15 +16,11 @@ Overall, the Elctronic components aren't expensive at all, as most will be in th
 The Game Will be A small room, in which it is an escape room. The player has 10 minutes to escape, or it's game over.
 The game will feature very basic level design, and almost no art direction. For the code, I will need:
 
-Doors (and keys)
-
-Player Movement & interaction
-
-Buttons
-
-Timer
-
-Gameplay Loop
+1. Doors (and keys)
+2.Player Movement & interaction
+3.Buttons
+4.Timer
+5.Gameplay Loop
 
 ---------------
 ## Controller design
