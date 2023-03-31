@@ -1,6 +1,7 @@
 # Project Proposal
 
 Marshall Sharp
+
 ---------------
 ## Research
 
@@ -33,5 +34,3 @@ The housing unit will be 3D printed and attached to the wrist with a band, eithe
 
 ---------------
 ## Key User Stories
-
-The Key features I will need is the functionality of the X/Y axis to look around with, along with soldering the parts, 3D printing the CAD design of the housing unit and programming the mechanics mentioned above. 
