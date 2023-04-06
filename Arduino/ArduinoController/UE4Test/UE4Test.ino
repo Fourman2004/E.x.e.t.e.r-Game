@@ -8,6 +8,14 @@ void setup() {
   Serial.begin(115200);
   pinMode(3, INPUT_PULLUP);
   pinMode(9, OUTPUT);
+  pinMode(10, INPUT_PULLUP);
+  pinMode(11, OUTPUT);
+  pinMode(5, INPUT_PULLUP);
+  pinMode(6, OUTPUT);
+  pinMode(13, INPUT_PULLUP);
+  pinMode(12, OUTPUT);
+  pinMode(4, INPUT_PULLUP);
+  pinMode(7, OUTPUT);
 }
 
 void loop() {
@@ -15,6 +23,7 @@ void loop() {
   //InteractButton();
   //Yaxis();
   //Xaxis();
+  Movement();
 }
 
 void Yaxis() {
@@ -29,12 +38,21 @@ void Xaxis() {
 
 void InteractButton()
 {
-  digitalWrite(9, !digitalRead(3));
-  Serial.print(!digitalRead(3));
+  digitalWrite(9,!digitalRead(3));
+  Serial.print("Interaction:" + !digitalRead(3));
   Serial.println();
 }
 
 void Movement()
 {
-  digitalWrite(6, Output)
+  //digitalWrite(6,!digitalRead(5));
+  digitalWrite(12,!digitalRead(13));
+  //digitalWrite(7, digitalRead(4));
+  //digitalWrite(11,!digitalRead(10));
+ //Serial.print(!digitalRead(5));
+ Serial.print(!digitalRead(13));
+ //Serial.print(digitalRead(4));
+ //Serial.print(!digitalRead(10));
+ delay(1000); 
+ Serial.println();
 }
