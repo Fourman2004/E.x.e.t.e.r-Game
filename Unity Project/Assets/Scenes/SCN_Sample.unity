@@ -398,6 +398,31 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: -0.18852204
       objectReference: {fileID: 0}
+    - target: {fileID: 5140907815853267381, guid: bc93efeb99293744fb4b4fc44950b189,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5140907815853267381, guid: bc93efeb99293744fb4b4fc44950b189,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5140907815853267381, guid: bc93efeb99293744fb4b4fc44950b189,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5140907815853267381, guid: bc93efeb99293744fb4b4fc44950b189,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5140907815853267381, guid: bc93efeb99293744fb4b4fc44950b189,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6501383292491274610, guid: bc93efeb99293744fb4b4fc44950b189,
         type: 3}
       propertyPath: door
