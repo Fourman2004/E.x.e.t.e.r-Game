@@ -6,8 +6,8 @@ float YaxisValue = 0;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
-  pinMode(3, INPUT_PULLUP);
-  pinMode(9, OUTPUT);
+  /**pinMode(3, INPUT_PULLUP);
+  pinMode(9, OUTPUT);**/
   pinMode(10, INPUT_PULLUP);
   pinMode(11, OUTPUT);
   pinMode(5, INPUT_PULLUP);
@@ -20,13 +20,13 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  //InteractButton();
-  //Yaxis();
-  //Xaxis();
+  /**InteractButton();
+  Yaxis();
+  Xaxis();**/
   Movement();
 }
 
-void Yaxis() {
+/**void Yaxis() {
 YaxisValue = map(analogRead(Yaxislog), 0, 1023,0 ,1023);
 Serial.println("Y Axis:" + analogRead(Yaxislog));
 }
@@ -41,18 +41,18 @@ void InteractButton()
   digitalWrite(9,!digitalRead(3));
   Serial.print("Interaction:" + !digitalRead(3));
   Serial.println();
-}
+}**/
 
 void Movement()
 {
-  //digitalWrite(6,!digitalRead(5));
+  digitalWrite(6,!digitalRead(5));
   digitalWrite(12,!digitalRead(13));
-  //digitalWrite(7, digitalRead(4));
-  //digitalWrite(11,!digitalRead(10));
- //Serial.print(!digitalRead(5));
+  digitalWrite(7, digitalRead(4));
+  digitalWrite(11,!digitalRead(10));
+ Serial.print(!digitalRead(5));
  Serial.print(!digitalRead(13));
- //Serial.print(digitalRead(4));
- //Serial.print(!digitalRead(10));
+ Serial.print(digitalRead(4));
+ Serial.print(!digitalRead(10));
  delay(1000); 
  Serial.println();
 }
