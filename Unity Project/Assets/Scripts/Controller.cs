@@ -1,12 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.VFX;
 
-public class Notes : MonoBehaviour
+public class Controller : MonoBehaviour
 {
-    public Collider collider;
-    public GameObject Note;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,9 +11,8 @@ public class Notes : MonoBehaviour
     }
 
     // Update is called once per frame
-    void OnTriggerEnter()
+    void Update()
     {
-        GameObject.Destroy(this);
-        Debug.Log("hit note");
+        
     }
 }

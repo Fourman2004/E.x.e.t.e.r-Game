@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5003883215413426172}
   m_Layer: 0
-  m_Name: GameManager 1
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 5102592470906735463}
   - component: {fileID: 7693136546602511249}
   m_Layer: 0
-  m_Name: Right
+  m_Name: "Input \u2192"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 4964186776619879272}
   - component: {fileID: 1428661403662905588}
   m_Layer: 0
-  m_Name: Down
+  m_Name: "Input \u2193"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 7429475879977670901}
   - component: {fileID: 48470376239398372}
   m_Layer: 0
-  m_Name: Up
+  m_Name: "Input \u2191"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -339,7 +339,7 @@ GameObject:
   - component: {fileID: 8583543746476135907}
   - component: {fileID: 3495818230832146314}
   m_Layer: 0
-  m_Name: Left
+  m_Name: "Input \u2190"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
