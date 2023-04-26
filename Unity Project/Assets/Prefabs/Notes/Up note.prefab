@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -3087262643172118264}
   - component: {fileID: 3347077512481103143}
   - component: {fileID: -1045512415444407554}
-  - component: {fileID: 5151308709439389482}
+  - component: {fileID: 1139640102318636594}
   m_Layer: 0
   m_Name: Up note
   m_TagString: Up
@@ -77,7 +77,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: ef0d38d911bdaef41b2c3482eb948f6d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collider: {fileID: -5587717396379945714}
   Note: {fileID: 3191894313474137704}
---- !u!114 &5151308709439389482
+--- !u!114 &1139640102318636594
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
