@@ -7,6 +7,7 @@ public class Notes : MonoBehaviour
 {
     public Collider collider;
     public GameObject Note;
+    public int Points;
     // Start is called before the first frame update
     void Start()
     {

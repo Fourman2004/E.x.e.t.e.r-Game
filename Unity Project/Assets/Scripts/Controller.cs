@@ -26,8 +26,8 @@ public class Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        manager.ReadPinData();
-        switch ()
+      /**  manager.ReadPinData();
+         switch ()
         {
             case ():
                 upInput.SetActive(true);
@@ -41,6 +41,6 @@ public class Controller : MonoBehaviour
             case ():
                 leftInput.SetActive(true);
                 break;
-        }
+        }**/
     }
 }

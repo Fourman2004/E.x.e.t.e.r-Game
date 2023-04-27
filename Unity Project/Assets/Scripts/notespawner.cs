@@ -7,18 +7,25 @@ public class notespawner : MonoBehaviour
     public float spawnCooldown;
     public GameObject Up, Down, Left, Right;
     public Notes upNote, downNote, leftNote, rightNote;
+    WaitForSeconds Delay;
     // Start is called before the first frame update
     void Start()
     {
-        
+        Delay = new WaitForSeconds(spawnCooldown);
+        InvokeRepeating("spawnnote", 0, spawnCooldown);
     }
 
     // Update is called once per frame
     void Update()
     {
-       float spawnchance = Random.Range(1,5);
+        
+    }
+
+    void spawnnote()
+    {
+        float spawnchance = Random.Range(1, 5);
         Debug.Log(spawnchance);
-        if (spawnchance == 1 )
+        if (spawnchance == 1)
         {
             Upnotespawn();
         }
@@ -34,8 +41,8 @@ public class notespawner : MonoBehaviour
         {
             Downnotespawn();
         }
-        
     }
+
 
     void Upnotespawn()
     {

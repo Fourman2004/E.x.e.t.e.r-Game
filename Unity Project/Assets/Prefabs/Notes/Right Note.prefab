@@ -113,6 +113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collider: {fileID: -8765171228016331762}
   Note: {fileID: 3191894313474137704}
+  Points: 1
 --- !u!114 &1239052707818146089
 MonoBehaviour:
   m_ObjectHideFlags: 0
