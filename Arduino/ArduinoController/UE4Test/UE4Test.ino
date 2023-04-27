@@ -19,9 +19,13 @@ void loop() {
   // put your main code here, to run repeatedly:
   //all methods do the same thing, only one shall be commented for this reason
  Up();
- left();
+ delay(10);
+ left(); 
+ delay(10);
  right();
+ delay(10);
  down();
+ delay(10);
 }
 
 void Up()
