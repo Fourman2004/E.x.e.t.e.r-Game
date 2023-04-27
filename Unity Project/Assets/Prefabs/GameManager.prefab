@@ -9,6 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5003883215413426172}
+  - component: {fileID: 3530455296383663031}
+  - component: {fileID: 7064952886553214136}
+  - component: {fileID: 8093065537916951333}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -35,6 +38,58 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3530455296383663031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060340664597378069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdf38ed331978fb438f257e16c532353, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7064952886553214136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060340664597378069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e389a881bdbb34aad79c8b8a62f22d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deviceChosen:
+    Port: 
+    FriendlyName: 
+    VID: 
+    PID: 
+    Chosen: 0
+  connectedDevices: []
+--- !u!114 &8093065537916951333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060340664597378069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d3907624666f24fa486134c0e00c1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 3530455296383663031}
+  upInput: {fileID: 6760232314098718348}
+  downInput: {fileID: 6333340726440445134}
+  leftInput: {fileID: 8124046379122538017}
+  rightInput: {fileID: 4718504612627316589}
+  upColl: {fileID: 48470376239398372}
+  leftColl: {fileID: 3495818230832146314}
+  rightColl: {fileID: 7693136546602511249}
+  downColl: {fileID: 1428661403662905588}
 --- !u!1 &4718504612627316589
 GameObject:
   m_ObjectHideFlags: 0

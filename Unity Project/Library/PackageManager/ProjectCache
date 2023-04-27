@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638168377939695687
+      ticks: 638182220171807091
     m_Hash: 516274765
   m_LockFileStatus:
     m_FilePath: C:/Users/matsh/Documents/Unirepo's/COMP102-Project/Unity Project/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638168377940165360
+      ticks: 638182220171956208
     m_Hash: 2481541853
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -225,13 +225,17 @@ m_ResolvedPackages:
     - 3.0.16
     - 3.0.17
     - 3.0.18
+    - 3.0.20
+    - 3.0.21
     compatible:
     - 3.0.14
     - 3.0.15
     - 3.0.16
     - 3.0.17
     - 3.0.18
-    verified: 3.0.18
+    - 3.0.20
+    - 3.0.21
+    verified: 3.0.21
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -301,11 +305,13 @@ m_ResolvedPackages:
     - 2.0.15
     - 2.0.16
     - 2.0.17
+    - 2.0.18
     compatible:
     - 2.0.15
     - 2.0.16
     - 2.0.17
-    verified: 2.0.17
+    - 2.0.18
+    verified: 2.0.18
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -770,6 +776,7 @@ m_ResolvedPackages:
     - 1.6.2
     - 1.6.3
     - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
@@ -782,6 +789,7 @@ m_ResolvedPackages:
     - 1.8.2
     compatible:
     - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
@@ -792,7 +800,7 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.8.1
     - 1.8.2
-    verified: 1.6.4
+    verified: 1.6.5
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -861,6 +869,7 @@ m_ResolvedPackages:
   versions:
     all:
     - 1.0.0
+    - 3.0.0-exp.1
     compatible:
     - 1.0.0
     verified: 1.0.0
