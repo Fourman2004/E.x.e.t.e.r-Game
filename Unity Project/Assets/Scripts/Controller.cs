@@ -2,17 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO.Ports;
-
+using UnityEditor;
 
 public class Controller : MonoBehaviour
 {
-    public SerialCommunicationManager manager;
+    public SerialCommunicationManager mySupManager;
     public GameObject upInput, downInput, leftInput, rightInput;
     public Collider upColl, leftColl, rightColl, downColl;
+    public int upPin, downPin, leftPin, rightPin;
     // Start is called before the first frame update
     void Start()
     {
-     manager = GetComponent<SerialCommunicationManager>();
+     
      upColl = GetComponent<Collider>();
      leftColl = GetComponent<Collider>();
      rightColl = GetComponent<Collider>();
@@ -26,21 +27,12 @@ public class Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      /**  manager.ReadPinData();
-         switch ()
+        string[] data = mySupManager.ReadPinData(' ');
+        Debug.Log(data[0]);
+      /**  if ()
         {
-            case ():
-                upInput.SetActive(true);
-                break;
-            case ():
-                downInput.SetActive(true);
-                break;
-            case ():
-                rightInput.SetActive(true);
-                break;
-            case ():
-                leftInput.SetActive(true);
-                break;
+            rightInput.SetActive(true);
         }**/
+
     }
 }

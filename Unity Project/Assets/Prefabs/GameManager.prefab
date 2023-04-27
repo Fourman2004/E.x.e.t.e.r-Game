@@ -63,12 +63,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deviceChosen:
-    Port: 
-    FriendlyName: 
-    VID: 
-    PID: 
-    Chosen: 0
-  connectedDevices: []
+    Port: COM3
+    FriendlyName: USB Serial Device (COM3)
+    VID: 2886
+    PID: 0004
+    Chosen: 1
+  connectedDevices:
+  - Port: COM3
+    FriendlyName: USB Serial Device (COM3)
+    VID: 2886
+    PID: 0004
+    Chosen: 1
 --- !u!114 &8093065537916951333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81,7 +86,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97d3907624666f24fa486134c0e00c1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  manager: {fileID: 3530455296383663031}
+  mySupManager: {fileID: 3530455296383663031}
   upInput: {fileID: 6760232314098718348}
   downInput: {fileID: 6333340726440445134}
   leftInput: {fileID: 8124046379122538017}
