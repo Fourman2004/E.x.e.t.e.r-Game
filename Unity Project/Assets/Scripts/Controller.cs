@@ -29,8 +29,9 @@ public class Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int.Parse(pins[0]);
-        Debug.Log(pins[0]);
+        int rightvalue = int.Parse(pins[0]);
+        serialCommunicationManager.SerialWriteLine(rightvalue.ToString());
+        Debug.Log(rightvalue.ToString());
     
         /**{
             rightInput.SetActive(true);
