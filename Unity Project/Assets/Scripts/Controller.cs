@@ -10,12 +10,15 @@ public class Controller : MonoBehaviour
 {
     public SerialCommunicationManager serialCommunicationManager;
     public GameObject upInput, downInput, leftInput, rightInput;
-    float pinUp; //, pinDown, pinLeft, pinRight;
+    float pinUp, pinDown, pinLeft, pinRight;
 
     // Start is called before the first frame update
     void Start()
     {
         pinUp = float.Parse(serialCommunicationManager.SerialReadLine());
+        pinDown = float.Parse(serialCommunicationManager.SerialReadLine());
+        pinLeft = float.Parse(serialCommunicationManager.SerialReadLine());
+        pinRight = float.Parse(serialCommunicationManager.SerialReadLine());
         upInput.SetActive(false);
      downInput.SetActive(false);
      leftInput.SetActive(false);
@@ -25,15 +28,12 @@ public class Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(pinUp);
-
-        /** pinDown = float.Parse(serialData[1]);
-         pinLeft = float.Parse(serialData[2]);
-         pinRight = float.Parse(serialData[3]);
+        Debug.Log("Up pin:" + pinUp);
+        Debug.Log("Down pin:" + pinDown);
+        Debug.Log("Left pin:" + pinLeft);
+        Debug.Log("Right pin:" + pinRight);
+        /**
          
-         Debug.Log(pinDown);
-         Debug.Log(pinLeft);
-         Debug.Log(pinRight);
          {
              rightInput.SetActive(true);
              }
