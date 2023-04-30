@@ -4,10 +4,10 @@ void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
   //inputs lead to buttons, using digital pins
-  pinMode(3, INPUT_PULLUP);
-  pinMode(6, INPUT_PULLUP);
-  pinMode(5, INPUT_PULLUP);
-  pinMode(9, INPUT_PULLUP);
+  pinMode(3, INPUT);
+  pinMode(6, INPUT);
+  pinMode(5, INPUT);
+  pinMode(9, INPUT);
   //outputs lead to digital pins
   pinMode(11, OUTPUT);
   pinMode(10, OUTPUT);
@@ -19,13 +19,13 @@ void loop() {
   // put your main code here, to run repeatedly:
   //all methods do the same thing, only one shall be commented for this reason
  Up();
- delay(1000);
+ delay(100);
  left(); 
- delay(1000);
+ delay(100);
  right();
- delay(1000);
+ delay(100);
  down();
- delay(1000);
+ delay(100);
 }
 
 void Up()

@@ -597,6 +597,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8093065537916951333, guid: 548a2c27c5ff4a94bad56108c2d86a4d,
         type: 3}
+      propertyPath: serialData.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093065537916951333, guid: 548a2c27c5ff4a94bad56108c2d86a4d,
+        type: 3}
+      propertyPath: serialData.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093065537916951333, guid: 548a2c27c5ff4a94bad56108c2d86a4d,
+        type: 3}
       propertyPath: serialCommunicationManager
       value: 
       objectReference: {fileID: 1500800032}
