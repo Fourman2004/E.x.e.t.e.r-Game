@@ -10,12 +10,13 @@ public class Controller : MonoBehaviour
 {
     public SerialCommunicationManager serialCommunicationManager;
     public GameObject upInput, downInput, leftInput, rightInput;
-    public string[] pins;
+    float pinUp; //, pinDown, pinLeft, pinRight;
+
     // Start is called before the first frame update
     void Start()
     {
-     pins = serialCommunicationManager.ReadPinData(' ');
-     upInput.SetActive(false);
+        pinUp = float.Parse(serialCommunicationManager.SerialReadLine());
+        upInput.SetActive(false);
      downInput.SetActive(false);
      leftInput.SetActive(false);
      rightInput.SetActive(false);
@@ -24,33 +25,38 @@ public class Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int rightvalue = int.Parse(pins[1]);
-        serialCommunicationManager.SerialWriteLine(rightvalue.ToString());
-        Debug.Log(rightvalue.ToString());
-    
-        /**{
-            rightInput.SetActive(true);
-            }
-        }
-        else if ()
-        {
+        Debug.Log(pinUp);
 
-        }
-        else if ()
-        {
+        /** pinDown = float.Parse(serialData[1]);
+         pinLeft = float.Parse(serialData[2]);
+         pinRight = float.Parse(serialData[3]);
+         
+         Debug.Log(pinDown);
+         Debug.Log(pinLeft);
+         Debug.Log(pinRight);
+         {
+             rightInput.SetActive(true);
+             }
+         }
+         else if ()
+         {
 
-        }
-        else if ()
-        {
+         }
+         else if ()
+         {
 
-        }
-        else
-        {
-            upInput.SetActive(false);
-            downInput.SetActive(false);
-            leftInput.SetActive(false);
-            rightInput.SetActive(false); 
-        } **/
+         }
+         else if ()
+         {
+
+         }
+         else
+         {
+             upInput.SetActive(false);
+             downInput.SetActive(false);
+             leftInput.SetActive(false);
+             rightInput.SetActive(false); 
+         } **/
 
     }
 }
