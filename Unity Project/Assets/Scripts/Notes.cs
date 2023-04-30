@@ -15,7 +15,7 @@ public class Notes : MonoBehaviour
     }
 
     // Update is called once per frame
-    void OnTriggerEnter()
+    void OnCollisionEnter()
     {
         GameObject.Destroy(this);
         Debug.Log("hit note");

@@ -10,16 +10,11 @@ public class Controller : MonoBehaviour
 {
     public SerialCommunicationManager serialCommunicationManager;
     public GameObject upInput, downInput, leftInput, rightInput;
-    public Collider upColl, leftColl, rightColl, downColl;
     public string[] pins;
     // Start is called before the first frame update
     void Start()
     {
-     pins = serialCommunicationManager.ReadPinData('4');
-     upColl = GetComponent<Collider>();
-     leftColl = GetComponent<Collider>();
-     rightColl = GetComponent<Collider>();
-     downColl = GetComponent<Collider>();
+     pins = serialCommunicationManager.ReadPinData(' ');
      upInput.SetActive(false);
      downInput.SetActive(false);
      leftInput.SetActive(false);
@@ -29,7 +24,7 @@ public class Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int rightvalue = int.Parse(pins[0]);
+        int rightvalue = int.Parse(pins[1]);
         serialCommunicationManager.SerialWriteLine(rightvalue.ToString());
         Debug.Log(rightvalue.ToString());
     
