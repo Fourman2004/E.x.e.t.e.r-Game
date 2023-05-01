@@ -31,9 +31,7 @@ public class Controller : MonoBehaviour
         if (serialData != null)
         {
             pin = Int32.Parse(serialData[0]);
-
-            Debug.Log(pin);
         }
-
+        Debug.Log(pin);
     }
 }
