@@ -5,19 +5,29 @@ using UnityEngine.VFX;
 
 public class Notes : MonoBehaviour
 {
-    public Collider collider;
+    public Collision noteCollider;
     public GameObject Note;
-    public int Points;
+    public ReadScore addtoScore;
     // Start is called before the first frame update
     void Start()
     {
-        
+        addtoScore = FindObjectOfType<ReadScore>();
     }
 
     // Update is called once per frame
     void OnCollisionEnter()
     {
-        GameObject.Destroy(this);
-        Debug.Log("hit note");
+        if (gameObject.tag != "Up" || gameObject.tag != "Down" || gameObject.tag != "Left" || gameObject.tag != "Right")
+        {
+            Destroy(Note);
+            if (gameObject.tag != "Deadzone")
+            {
+                Debug.Log("You Missed");
+            }
+            else
+            {
+                addtoScore.UpdateScore();
+            }
+        }
     }
 }

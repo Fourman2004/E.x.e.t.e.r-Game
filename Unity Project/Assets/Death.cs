@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Destroynotes : MonoBehaviour
+public class Death : MonoBehaviour
 {
-    public Collider upColl, downColl, leftColl, rightColl;
     // Start is called before the first frame update
     void Start()
     {

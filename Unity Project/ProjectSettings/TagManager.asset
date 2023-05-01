@@ -9,6 +9,8 @@ TagManager:
   - Left
   - Right
   - controller
+  - Scoreboard
+  - Deadzone
   layers:
   - Default
   - TransparentFX

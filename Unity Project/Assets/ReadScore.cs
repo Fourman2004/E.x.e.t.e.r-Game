@@ -1,19 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Destroynotes : MonoBehaviour
+public class ReadScore : MonoBehaviour
 {
-    public Collider upColl, downColl, leftColl, rightColl;
+    public int score;
+    public Text scoreText;
     // Start is called before the first frame update
     void Start()
     {
-        
+     
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        scoreText.text = ("Score:" + score.ToString());
+    }
+
+    public void UpdateScore()
+    {
+        score++;
     }
 }

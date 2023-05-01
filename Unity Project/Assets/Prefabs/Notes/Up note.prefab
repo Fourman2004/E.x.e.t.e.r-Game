@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3347077512481103143}
   - component: {fileID: -1045512415444407554}
   - component: {fileID: 1139640102318636594}
+  - component: {fileID: -7289650622190475835}
   m_Layer: 0
   m_Name: Up note
   m_TagString: Up
@@ -44,7 +45,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3191894313474137704}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -111,9 +112,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb28b786801b94a468b43c524681746d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collider: {fileID: -5587717396379945714}
   Note: {fileID: 3191894313474137704}
+  scoreBoard: {fileID: 2103130554291367227, guid: d447bc61957c54045bbe8750c6e7b2d3,
+    type: 3}
   Points: 1
+  addtoScore: {fileID: 3505209000785603816, guid: 7180da6d18be40940b8f3513335ec92d,
+    type: 3}
 --- !u!114 &1139640102318636594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,4 +130,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9c21896e2febd14488668dbb0afd3cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteSpeed: 1
+  noteSpeed: 3
+--- !u!54 &-7289650622190475835
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3191894313474137704}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
