@@ -9,7 +9,7 @@ public class Audio : MonoBehaviour
     public AudioSource Music;
     public AudioClip musicClip;
     public string filepath;
-
+    public bool loop;
     // Start is called before the first frame update
     void Awake()
     {
@@ -32,6 +32,7 @@ public class Audio : MonoBehaviour
     {
         Music.clip = musicClip;
         Music.Play();
+        Music.loop = loop;
     }
 
     public WWW getAudioFile(string file, string path)

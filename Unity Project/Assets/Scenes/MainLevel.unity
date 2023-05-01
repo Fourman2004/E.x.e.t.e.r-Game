@@ -302,7 +302,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deadzone
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5012267161182132669, guid: 2cfd58564dab4f545b28f3264fb90b7e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2cfd58564dab4f545b28f3264fb90b7e, type: 3}
 --- !u!1 &818712554 stripped
 GameObject:
@@ -461,6 +462,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1878279803569553261, guid: d447bc61957c54045bbe8750c6e7b2d3,
+        type: 3}
+      propertyPath: missCap
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7549675700260558036, guid: d447bc61957c54045bbe8750c6e7b2d3,
         type: 3}
