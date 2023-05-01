@@ -20,14 +20,13 @@ public class Notes : MonoBehaviour
         if (gameObject.tag != "Up" || gameObject.tag != "Down" || gameObject.tag != "Left" || gameObject.tag != "Right")
         {
             Destroy(Note);
-            if (gameObject.tag != "Deadzone")
-            {
-                Debug.Log("You Missed");
-            }
-            else
-            {
-                addtoScore.UpdateScore();
-            }
+            addtoScore.UpdateScore();
+        }
+        else if (gameObject.tag != "Deadzone")
+        {
+            Destroy(Note);
+            Debug.Log("You Missed");
+                      
         }
     }
 }

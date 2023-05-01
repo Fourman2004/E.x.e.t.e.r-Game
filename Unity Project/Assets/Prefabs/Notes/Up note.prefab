@@ -113,9 +113,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Note: {fileID: 3191894313474137704}
-  scoreBoard: {fileID: 2103130554291367227, guid: d447bc61957c54045bbe8750c6e7b2d3,
-    type: 3}
-  Points: 1
   addtoScore: {fileID: 3505209000785603816, guid: 7180da6d18be40940b8f3513335ec92d,
     type: 3}
 --- !u!114 &1139640102318636594
@@ -130,7 +127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9c21896e2febd14488668dbb0afd3cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteSpeed: 3
+  noteSpeed: 1
+  waitTime: 3
 --- !u!54 &-7289650622190475835
 Rigidbody:
   m_ObjectHideFlags: 0
