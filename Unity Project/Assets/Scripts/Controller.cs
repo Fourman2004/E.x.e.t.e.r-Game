@@ -11,9 +11,8 @@ public class Controller : MonoBehaviour
 {
     public SerialCommunicationManager serialCommunicationManager;
     public GameObject upInput, downInput, leftInput, rightInput;
+    string[] serialData;
     int pin;
-    public string[] serialData;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -30,22 +29,23 @@ public class Controller : MonoBehaviour
 
         if (serialData != null)
         {
-         pin = int.Parse(serialData[0]);
-         if(pin == 3)
-         {
-                upInput.SetActive(true);
-            }
-         else if (pin == 9)
+           Int32.TryParse(serialData[0], out pin);
+           Debug.Log(pin);
+         if (pin == 3)
             {
-                downInput.SetActive(true);
+                upInput.SetActive(true);
             }
          else if (pin == 5)
             {
                 leftInput.SetActive(true);
             }
-         else if(pin == 6)
+         else if (pin == 6)
             {
                 rightInput.SetActive(true);
+            }
+         else if (pin == 9)
+            {
+              downInput.SetActive(true);
             }
          else
             {
@@ -55,6 +55,6 @@ public class Controller : MonoBehaviour
                 rightInput.SetActive(false);
             }
         }
-        Debug.Log(pin);
+
     }
 }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3530455296383663031}
   - component: {fileID: 7064952886553214136}
   - component: {fileID: 8093065537916951333}
+  - component: {fileID: 8271017919798103135}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -86,15 +87,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97d3907624666f24fa486134c0e00c1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mySupManager: {fileID: 3530455296383663031}
+  serialCommunicationManager: {fileID: 0}
   upInput: {fileID: 6760232314098718348}
   downInput: {fileID: 6333340726440445134}
   leftInput: {fileID: 8124046379122538017}
   rightInput: {fileID: 4718504612627316589}
-  upColl: {fileID: 48470376239398372}
-  leftColl: {fileID: 3495818230832146314}
-  rightColl: {fileID: 7693136546602511249}
-  downColl: {fileID: 1428661403662905588}
+--- !u!114 &8271017919798103135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060340664597378069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef86dce5890892842b8d39d376b29014, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4718504612627316589
 GameObject:
   m_ObjectHideFlags: 0
