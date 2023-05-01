@@ -30,7 +30,30 @@ public class Controller : MonoBehaviour
 
         if (serialData != null)
         {
-            pin = Int32.Parse(serialData[0]);
+         pin = int.Parse(serialData[0]);
+         if(pin == 3)
+         {
+                upInput.SetActive(true);
+            }
+         else if (pin == 9)
+            {
+                downInput.SetActive(true);
+            }
+         else if (pin == 5)
+            {
+                leftInput.SetActive(true);
+            }
+         else if(pin == 6)
+            {
+                rightInput.SetActive(true);
+            }
+         else
+            {
+                upInput.SetActive(false);
+                downInput.SetActive(false);
+                leftInput.SetActive(false);
+                rightInput.SetActive(false);
+            }
         }
         Debug.Log(pin);
     }
