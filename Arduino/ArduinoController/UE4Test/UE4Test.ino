@@ -2,7 +2,7 @@
 
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(9600);
+  Serial.begin(115200);
   //inputs lead to buttons, using digital pins
   pinMode(3, INPUT);
   pinMode(6, INPUT);
