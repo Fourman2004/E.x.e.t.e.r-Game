@@ -260,7 +260,7 @@ PrefabInstance:
     - target: {fileID: 4559362568343617141, guid: 2cfd58564dab4f545b28f3264fb90b7e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 23.5
+      value: 30.2
       objectReference: {fileID: 0}
     - target: {fileID: 4559362568343617141, guid: 2cfd58564dab4f545b28f3264fb90b7e,
         type: 3}
@@ -764,6 +764,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 3.32
       objectReference: {fileID: 0}
+    - target: {fileID: 4718504612627316589, guid: 548a2c27c5ff4a94bad56108c2d86a4d,
+        type: 3}
+      propertyPath: m_TagString
+      value: playerIntercepter
+      objectReference: {fileID: 0}
     - target: {fileID: 5003883215413426172, guid: 548a2c27c5ff4a94bad56108c2d86a4d,
         type: 3}
       propertyPath: m_RootOrder
@@ -819,6 +824,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6333340726440445134, guid: 548a2c27c5ff4a94bad56108c2d86a4d,
+        type: 3}
+      propertyPath: m_TagString
+      value: playerIntercepter
+      objectReference: {fileID: 0}
+    - target: {fileID: 6760232314098718348, guid: 548a2c27c5ff4a94bad56108c2d86a4d,
+        type: 3}
+      propertyPath: m_TagString
+      value: playerIntercepter
+      objectReference: {fileID: 0}
     - target: {fileID: 7693136546602511249, guid: 548a2c27c5ff4a94bad56108c2d86a4d,
         type: 3}
       propertyPath: m_IsTrigger
@@ -844,6 +859,11 @@ PrefabInstance:
       propertyPath: serialCommunicationManager
       value: 
       objectReference: {fileID: 1500800032}
+    - target: {fileID: 8124046379122538017, guid: 548a2c27c5ff4a94bad56108c2d86a4d,
+        type: 3}
+      propertyPath: m_TagString
+      value: playerIntercepter
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8271017919798103135, guid: 548a2c27c5ff4a94bad56108c2d86a4d, type: 3}
     - {fileID: 2536496497219224809, guid: 548a2c27c5ff4a94bad56108c2d86a4d, type: 3}
@@ -867,6 +887,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1801820565755880250, guid: b55b363b8c392be40abba482c5a009d2,
+        type: 3}
+      propertyPath: loop
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1801820565755880250, guid: b55b363b8c392be40abba482c5a009d2,
         type: 3}
       propertyPath: Music

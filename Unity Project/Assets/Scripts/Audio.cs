@@ -5,7 +5,8 @@ using UnityEngine.Networking;
 
 public class Audio : MonoBehaviour
 {
-    public const string musicName = "";
+
+    public const string musicName = ""; // Gets the name of the .Wav file
     public AudioSource Music;
     public AudioClip musicClip;
     public string filepath;
@@ -14,31 +15,31 @@ public class Audio : MonoBehaviour
     void Awake()
     {
         Music = gameObject.AddComponent<AudioSource>();
-        filepath = "file://" + Application.streamingAssetsPath + "/Sound/";
+        filepath = "file://" + Application.streamingAssetsPath + "/Sound/"; //Gets file location in folder
     }
 
     public IEnumerator LoadMusic()
     {
-        WWW request = getAudioFile(filepath, musicName);
+        WWW request = getAudioFile(filepath, musicName); //gets a Web page using audio file, returns it
         yield return request;
 
-        musicClip = request.GetAudioClip();
-        musicClip.name = musicName;
+        musicClip = request.GetAudioClip(); // Sets the music Clip to be the File found
+        musicClip.name = musicName; //Sets the name of the clip to the name of the .Wav file
 
-        PlayMusic();
+        PlayMusic(); //calls method
     }
 
     public void PlayMusic()
     {
-        Music.clip = musicClip;
+        Music.clip = musicClip; //Sets Source to the clip
         Music.Play();
-        Music.loop = loop;
+        Music.loop = loop; //Calls bool to loop song
     }
 
     public WWW getAudioFile(string file, string path)
     {
-        string audioload = string.Format(file + "{0}" + path);
-        WWW request = new WWW(audioload);
+        string audioload = string.Format(file + "{0}" + path); //Gets the Audio 
+        WWW request = new WWW(audioload); //gets new and returns
         return request;
     }
 

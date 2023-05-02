@@ -11,6 +11,7 @@ TagManager:
   - controller
   - Scoreboard
   - Deadzone
+  - playerIntercepter
   layers:
   - Default
   - TransparentFX

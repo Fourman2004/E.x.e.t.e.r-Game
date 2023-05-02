@@ -175,7 +175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   misses: 0
-  missCap: 1
+  missCap: 10
   scoreText: {fileID: 2874436386892364119}
   misstext: {fileID: 8850444336066758447}
 --- !u!1 &7411357818064177765

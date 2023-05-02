@@ -17,17 +17,19 @@ public class ReadScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = ("Score:" + score.ToString());
+        //Gets text to string
+        scoreText.text = ("Score:" + score.ToString()); 
         misstext.text = ("Misses:" + misses.ToString());
     }
 
     public void UpdateScore()
     {
-        score++;
+        score++; //+1 to Score int
     }
 
     public void UpdateMisses()
     {
+       //End condition to the Game
         if (misses != missCap)
         {
             misses++;
