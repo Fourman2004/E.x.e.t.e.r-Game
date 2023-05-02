@@ -32,11 +32,11 @@ public class ReadScore : MonoBehaviour
        //End condition to the Game
         if (misses != missCap)
         {
-            misses++;
+            misses++; //+1 to Miss int
         }
         else
         {
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene("GameOver"); //Loads Game Over Screen
         }
     }
 }

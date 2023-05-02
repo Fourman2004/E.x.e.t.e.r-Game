@@ -12,6 +12,7 @@ public class Miss : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Finds Objects in the scene
         addtoScore1 = FindObjectOfType<ReadScore>();
         deathZone = GameObject.Find("Deadzone");
     }
@@ -19,6 +20,7 @@ public class Miss : MonoBehaviour
     // Update is called once per frame
     void OnCollisionEnter(Collision other)
     {
+        //if the deathzone touches a note, destroys note and calls Method to add a miss to the scoreboard. Logs it
         if (deathZone == other.gameObject)
         {
             Destroy(Note);

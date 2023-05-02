@@ -19,7 +19,7 @@ public class Notes : MonoBehaviour
     // Update is called once per frame
     void OnCollisionEnter(Collision other)
     {
-        //if it gets the Input gameobjects, add to score and destroy this object
+        //if it gets the Input gameobjects, add to score and destroy this object. Logs it.
         if (other.gameObject.tag == "playerIntercepter") 
         {
             Destroy(Note);

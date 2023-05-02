@@ -11,6 +11,7 @@ public class notespawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Makes new WaitForSeconds (Goes Unused) and invokes method constantly on a float 
         Delay = new WaitForSeconds(spawnCooldown);
         InvokeRepeating("spawnnote", 0, spawnCooldown);
     }
@@ -23,6 +24,7 @@ public class notespawner : MonoBehaviour
 
     void spawnnote()
     {
+        //Gets number between 1 - 4, And calls a method to spawn a note
         float spawnchance = Random.Range(1, 5);
         Debug.Log(spawnchance);
         if (spawnchance == 1)
@@ -43,9 +45,10 @@ public class notespawner : MonoBehaviour
         }
     }
 
-
+    //All Spawn methods are the same, will go over one
     void Upnotespawn()
     {
+        //finds Object in Scene and Compares Tags, if they're the same, spawns the note
         Up = GameObject.Find("Up");
         if (Up.CompareTag("Up"))
         {
